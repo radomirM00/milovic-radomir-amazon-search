@@ -1,0 +1,22 @@
+{
+  "name": "milovic-radomir-amazon-search-automation",
+  "version": "1.0.0",
+  "description": "Amazon product search testing with Playwright",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:search": "npx playwright test tests/product-search.spec.ts",
+    "test:prices": "npx playwright test tests/price-data-processing.spec.ts",
+    "test:unit": "npx playwright test tests/price-utils.spec.ts",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "automation", "testing"],
+  "author": "Radomir Milovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
