@@ -15,7 +15,7 @@
 | **Actual Result** | The query text remains in a single line, extending beyond the standard page width. While other UI elements (like product cards) remain intact, the page develops a horizontal scrollbar to accommodate the overflowing text |
 | **Impact** | Minor UX issue. It creates an unnecessary horizontal scrollbar which is inconsistent with the rest of the site's vertical-only navigation. |
 
-![Horizontal Overflow Screenshot](./manual-screenshots/bug-01-overflow.png)
+![Horizontal Overflow Screenshot](./manual-screenshots/bug-01.png)
 
 ---
 
